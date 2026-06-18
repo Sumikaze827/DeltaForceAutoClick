@@ -1,6 +1,6 @@
-# DFAC - 三角洲行动典藏皮肤抢购工具
+# DFAC - 皮肤抢购工具
 
-一个基于 OCR 视觉识别的三角洲行动典藏皮肤自动抢购工具。自动检测倒计时，在最佳时机自动点击抢购。
+一个基于 OCR 视觉识别的自动抢购工具。
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows-blue.svg)
@@ -15,19 +15,6 @@
 - **KMS 反检测** - 内置隐藏反检测模块（需要 `kms/` 目录支持）
 - **结果日志** - 每次操作结果实时记录到 `result_logs/`
 
-## 目录结构
-
-```
-DFAC/
-├── main.py              # 主程序入口
-├── main.spec            # PyInstaller 打包配置
-├── config.json          # 屏幕坐标与参数配置
-├── check_process.py     # 进程检查脚本
-├── kms/                 # KMS 反检测模块（可选）
-├── result_logs/         # 操作日志输出目录
-├── build/               # 打包临时文件
-└── dist/                # 打包输出目录
-```
 
 ## 快速开始
 
@@ -44,7 +31,7 @@ pip install -r requirements.txt
 - `opencv-python`（图像编码）
 - `Pillow`（图像处理）
 
-### 2. 配置
+### 2. 配置（可跳过）
 
 编辑 `config.json`，根据你的屏幕分辨率设置各区域坐标：
 
