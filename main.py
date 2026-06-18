@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-三角洲行动典藏皮肤抢购工具
-
 使用方法:
    & "venv/Scripts/python.exe" main.py           # 使用 venv 环境
    & "venv/Scripts/python.exe" -m PyInstaller main.spec
