@@ -2,6 +2,8 @@
 
 一个基于 OCR 视觉识别的自动抢购工具。
 
+本工具目的仅为抢不到皮肤的玩家提供自动化帮助，请勿直接或间接用于盈利！！！
+
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows-blue.svg)
 
@@ -89,6 +91,8 @@ idle → countdown → entering → done → (idle)
 ## 注意事项
 
 - 本工具仅供学习研究，请勿用于商业用途或违规操作
+- 测试时间位于S9末期，实测无法进入M7抢购池，仅支持低压抢购环境
+- 为防止三角券赠礼倒卖，不考虑后续精确度上的优化
 - 使用前请确保游戏和网络环境稳定
 - 目前只支持1k分辨率
 - 部分功能需要 `kms/` 模块支持
