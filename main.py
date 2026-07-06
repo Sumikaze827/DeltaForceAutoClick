@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-使用方法:
-   & "venv/Scripts/python.exe" main.py           # 使用 venv 环境
-   & "venv/Scripts/python.exe" -m PyInstaller main.spec
-退出: 按 ESC 或关闭窗口
-"""
 import sys
 import os
 import time
