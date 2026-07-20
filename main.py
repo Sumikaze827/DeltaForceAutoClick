@@ -1,4 +1,10 @@
 # -*- coding: utf-8 -*-
+"""
+使用方法:
+   & "venv/Scripts/python.exe" main.py           # 使用 venv 环境
+   & "venv/Scripts/python.exe" -m PyInstaller main.spec
+退出: 按 ESC 或关闭窗口
+"""
 import sys
 import os
 import time
@@ -32,7 +38,7 @@ def load_config():
         with open(config_path, 'r', encoding='utf-8') as f:
             return json.load(f)
     return {
-        "delay": 860,
+        "delay": 862,
         "1920x1080": {
             "ZONE4": [1562, 874, 1725, 898],
             "ZONE1": [1160, 635, 1304, 660],
@@ -41,6 +47,9 @@ def load_config():
             "MOVE2_POS": [1235, 706],
             "REFRESH_POS": [1378, 178],
             "BACK_POS": [940, 940],
+            "MARKET_POS": [1680, 880],
+            "FOLLOW_POS": [1708, 208],
+            "RESULT_ZONE": [742, 147, 1174, 189],
         }
     }
 
